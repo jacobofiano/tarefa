@@ -111,27 +111,22 @@ git push origin main
 
 Para ver as diferenzas entre o repositorio local e o remoto:
 
-bash
-
 git fetch
-git diff origin/main
+git diff origin/master
 
-5. Subir os ficheiros ao repositorio
+13. Subir os ficheiros ao repositorio
 
 Unha vez editado o ficheiro README.md e engadido o ficheiro readme2.md, podes realizar o seguinte:
 
-bash
-
-git add .
+git add nome dos ficheiros
 git commit -m "Engadir as respostas da tarefa de Docker"
-git push origin main
+git push origin master
 
-6. Entregar o repositorio
+14. Entregar o repositorio
 
-O URL do teu repositorio sería algo coma:
+O URL do meu repositorio sería:
 
-txt
 
 https://github.com/teu-usuario/tarefa-docker
 
-Este sería o enlace que deberías compartir para a entrega da tarefa.
+Este sería o enlace que debería compartir para a entrega da tarefa.

@@ -7,6 +7,7 @@ Este contedor executará Apache HTTPD, mapeando o porto 80 do contedor co porto 
 3. *Crear o directorio htdocs no directorio actual:*
 
 mkdir -p htdocs
+
 4. *Crear un arquivo HTML básico dentro deste directorio.*
 Executar o seguinte comando para crear o contedor asir_httpd:docker run --name asir_httpd -d -p 8080:80 -v "$PWD/htdocs:/usr/local/apache2/htdocs" httpd
 
@@ -18,6 +19,7 @@ Neste comando:
 -v "$PWD/htdocs:/usr/local/apache2/htdocs" fai o bind mount do directorio htdocs ao directorio de Apache htdocs.
 
 Agora podes comprobar se funciona accedendo a http://localhost:8080 no teu navegador.
+
 5. *Crear o contedor asir_web1 no porto 8000*
 
 Agora que temos un directorio htdocs preparado, podemos reutilizalo para crear outro contedor, asir_web1, co porto 8000:

@@ -31,7 +31,7 @@ Comproba o contedor en http://localhost:8000.4.
 
 Para o terceiro contedor, seguimos os mesmos pasos, pero mapeamos o porto 8090:
 
-docker run --name asir_web2 -d -p 8090:80 -v "$PWD/htdocs:/usr/local/apache2/htdocs" httpd
+docker run --name asir_web2 -d -p 8090:80 -v "$PWD/htdocs:/usr/local/apsache2/htdocs" httpd
 
 Comproba o contedor en http://localhost:8090.
 7. Verificar o estado dos contedores

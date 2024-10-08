@@ -1,4 +1,4 @@
-ChatGPT
+
 1. Consulta "dig danielcastelao.org"
 
 Ejecutamos el comando:dig danielcastelao.org

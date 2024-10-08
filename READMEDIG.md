@@ -95,6 +95,7 @@ Los TTL pueden variar dependiendo de las políticas de caché de cada dominio. L
 
 El TTL máximo se puede consultar usando dig. 
 Es el valor mostrado en la respuesta antes de que se cachee. Generalmente, los TTLs originales pueden ser de horas o días.
+s
 10. Máquinas detrás de www.google.es
 
 dig www.google.es
